@@ -1,0 +1,8 @@
+﻿icd_code,icd_label,laymen_label,total_2015,person_2015,total_2020,person_2020
+ICD10-C00-D48,Neoplasms,cancers,26080000000,320,43792000000,530
+ICD10-E10-E14,Diabetes mellitus,diabetes,6197000000,80,7402000000,90
+ICD10-F00-F99,Mental and behavioural disorders,mental_behavioural_disorders,42745000000,520,56392000000,680
+ICD10-I00-I99,Diseases of the circulatory system,cardiovascular_diseases,44533000000,550,56727000000,680
+ICD10-J40-J47,Chronic lower respiratory diseases,respiratory_conditions,6175000000,80,7198000000,90
+ICD10-J45-J46,Asthma,respiratory_conditions,1752000000,20,2017000000,20
+ICD10-M00-M99,Diseases of the musculoskeletal system,musculoskeletal_conditions,32950000000,400,41679000000,500
