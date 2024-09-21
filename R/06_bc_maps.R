@@ -53,3 +53,42 @@ hapa_graphviz <- grViz("digraph{
                      }")
 
 hapa_graphviz
+
+## ---- bc-tpb
+
+com_b_graphviz <- grViz("digraph{
+         
+                     graph[rankdir = LR]
+                     
+                     node[shape = rectangle, 
+                     style = filled, 
+                     fillcolor = '#e18b22', 
+                     fontcolor = '#ffffff']  
+                     A[label = 'Capability']
+                     
+                     node[shape = rectangle, 
+                     style = filled, 
+                     fillcolor = '#fefe62', 
+                     fontcolor = '#000000']  
+                     B[label = 'Opportunity']
+                     
+                     node[shape = rectangle, 
+                     style = filled, 
+                     fillcolor = '#4739a2', 
+                     fontcolor = '#ffffff']  
+                     C[label = 'Motivation']
+                     
+                     node[shape = rectangle, 
+                     style = filled, 
+                     fillcolor = '#000000', 
+                     fontcolor = '#ffffff']  
+                     D[label = 'Behaviour']
+                     
+                     edge[color = black]
+                     A -> D
+                     B -> D
+                     C -> D
+                     
+                     }")
+
+com_b_graphviz
