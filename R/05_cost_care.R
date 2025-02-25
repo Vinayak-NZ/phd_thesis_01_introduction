@@ -92,7 +92,7 @@ cost_care_pp_plot <-
          caption = "Data source: Statistisches Bundesamt", 
          fill = "Year") +
     ylab("Cost \nper inhabitant (\U20AC)") + 
-    xlab("Year") + 
+    xlab("Diagnosis-Related Group (DRG) Codes") + 
     theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
           panel.background = element_blank(), axis.line = element_line(colour = "black"), 
           plot.title = element_text(color = "#2F2E41", size = 12, face = "bold"),
@@ -111,7 +111,7 @@ cost_care_t_plot <-
        caption = "Data source: Statistisches Bundesamt", 
        fill = "Year") +
   ylab("Cost \nin Millions (\U20AC)") + 
-  xlab("Year") + 
+  xlab("Diagnosis-Related Group (DRG) Codes") + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"), 
         plot.title = element_text(color = "#2F2E41", size = 12, face = "bold"),
